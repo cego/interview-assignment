@@ -1,4 +1,3 @@
-
 CREATE TABLE users (
   id varchar(36) NOT NULL,
   firstName varchar(255) default NULL,
