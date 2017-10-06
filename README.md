@@ -10,6 +10,6 @@ Develop a solution that, given a select query, can read data from a database, wr
 Please use the data set provided in the SQL dump in this repo. Please also consider that your solution should be able to handle much larger data sets.
 
 ## Expectations
-Fork this repo. Solve the task below. Push your code to a public repo and send us the link via email or simply send us a tarball (please include any VCS metadata) in an email to pf@cego.dk.
+Make a copy this repo. Solve the task below. Push your code to a public repo and send us the link in an email to pf@cego.dk.
 
 Your solution should include a short readme describing your solution, how to use/test it and any final considerations such as known errors, next steps, security concerns etc. Don’t worry we are not expecting this thing to be perfect.
