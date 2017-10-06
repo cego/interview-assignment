@@ -1,5 +1,5 @@
 # Job interview assignment
-We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at is topics such as: choice of technology, structuring of code, use of VCS, selection of 3rd party libraries, documentation etc.
+We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at are topics such as: choice of technology, structuring of code, use of VCS, selection of 3rd party libraries, documentation etc.
 
 ## The task
 Develop a solution that, given a select query, can read data from a database, write it to a local file and then delete the data from the database. The solution should verify that data is written to the file before deleting it from the database.
