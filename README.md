@@ -2,12 +2,12 @@
 We kindly ask you to solve the task below. By solving and submitting this assignment you provide us with insights in how you solve real-world problems. What we will be looking at are topics such as: choice of technology, structuring of code, use of VCS, selection of 3rd party libraries, documentation etc.
 
 ## The task
-Develop a solution that, given a select query, can read data from a database, write it to a local file and then delete the data from the database. The solution should verify that data is written to the file before deleting it from the database.
+Develop a solution that, given a select query, can read data from a database, write it to a local file and then delete the data from the database. The solution should verify that data is written to the file, and that data integrity is maintained, before deleting it from the database.
 
 - Use Bash, PHP, JavaScript or Go as the language
 - Use MySQL, MariaDB, CockroachDB or SQLite as the database
 
-Please use the data set provided in the SQL dump in this repo.
+Please use the data set provided in the SQL dump in this repo. Please also consider that your solution should be able to handle much larger data sets.
 
 ## Expectations
 Fork this repo. Solve the task below. Push your code to a public repo and send us the link via email or simply send us a tarball (please include any VCS metadata) in an email to pf@cego.dk.
