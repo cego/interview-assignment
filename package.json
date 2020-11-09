@@ -1,0 +1,28 @@
+{
+  "name": "interview-assignment",
+  "version": "1.0.0",
+  "description": "Interview assignment for CE;GO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/humleflue/interview-assignment.git"
+  },
+  "author": "Lasse Damsgaard Skaalum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/humleflue/interview-assignment/issues"
+  },
+  "homepage": "https://github.com/humleflue/interview-assignment#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

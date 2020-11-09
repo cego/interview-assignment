@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "rules": {
+        "linebreak-style": 0,                                             // Tillader linjeskift på windows :'D
+        "quotes": ["error", "backtick", {"allowTemplateLiterals": true}], // Tillader kun at man bruger backtics i strings
+        "no-use-before-define": ["error", {"functions": false }],         // Tillader at man kalder funktioner inden de er erklæret
+        "no-plusplus": 0,                                                 // Tillader post- og prefix increment og decrement
+        "curly": ["error", "all"],                                        // Vi skal altid bruge curly brackets
+        "brace-style": ["error", "stroustrup"],                           // Håndhæver stroustrup reglen: https://eslint.org/docs/rules/brace-style#stroustrup
+        "radix": ["error", "as-needed"],                                  // Tillader parseInt(var) uden radix-parameter
+        "no-multi-spaces": 0,                                             // Tillader at man kan lave ekstra mellemrum imellem ting i koden
+        "class-methods-use-this": 0,                                      // Tillader at man undlader at bruge 'this' i class-methods
+        "max-len": 0,                                                     // Tillader at man bruger lange linjer kode
+        "no-alert": 0,                                                    // Tillader brug af alert
+        "no-param-reassign": ["error", { "props": false }]               /* Tillader at man reassigner properties på et objekt, som bliver medsendt som parameter,
+                                                                             - men ikke andre former for reassign til parameter */
+    }
+}
