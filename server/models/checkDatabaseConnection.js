@@ -1,4 +1,4 @@
-const db = require(`../helpers/database/Database`);
+const db = require(`./database/Database`);
 
 async function checkDatabaseConnection(req, res) {
   let status = `API is `;
@@ -15,19 +15,6 @@ async function checkDatabaseConnection(req, res) {
   finally {
     res.json({ status });
   }
-}
-
-async function promisifiedConnect(connection) {
-  return new Promise((resolve, reject) => {
-    connection.connect((err) => {
-      if (err) {
-        reject(err);
-      }
-      else {
-        resolve();
-      }
-    });
-  });
 }
 
 module.exports = checkDatabaseConnection;

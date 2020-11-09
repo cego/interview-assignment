@@ -21,6 +21,19 @@ class Database {
       // Data has already been loaded
     });
   }
+
+  async query(queryString) {
+    return new Promise((resolve, reject) => {
+      this.db.all(queryString, (err, rows) => {
+        if (err) {
+          reject(err);
+        }
+        else {
+          resolve(rows);
+        }
+      });
+    });
+  }
 }
 
 module.exports = new Database();

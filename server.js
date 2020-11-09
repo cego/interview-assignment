@@ -12,7 +12,7 @@ const handleRoutes         = require(`./server/routing`);
 const handleErrors         = require(`./server/error_handler`);
 const middleWare           = require(`./server/middleware`);
 const consoleLogToFile     = require(`./server/helpers/consol_log_file`);
-const database             = require(`./server/helpers/database/Database`);
+const database             = require(`./server/models/database/Database`);
 
 /* Setup */
 global.conf = require(`./server_settings`); // Load settings into grobal variable (available across all scripts)
